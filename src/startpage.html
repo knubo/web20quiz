@@ -6,20 +6,30 @@
 <script src="../lib/global.js" type="text/javascript"></script>
 <script src="../lib/prototype.js" type="text/javascript"></script>
 <script src="../lib/scriptaculous.js" type="text/javascript"></script>
+<link rel="stylesheet" href="web20quiz.css" type="text/css" media="screen" />  
 </head>
 	
 <body>
 
 <script type="text/javascript">
-  function moveAround(img) {
-     new Effect.Move (img,{ x: 20, y: 0, mode: 'relative'});
-  }
+
+   function loadNextPage() {
+      document.location = 'quiz1.html';
+   }
+
+   function doPuff() {
+       new Effect.Puff('everything', { afterFinish:loadNextPage });
+   }
     
 </script>
+<div id="everything">
 
-<img src="../gfx/web20.png" alt="WEB2.0" onmouseover="moveAround(this)">
+<img id="web20img" src="../gfx/web20.png" alt="WEB2.0" onmouseover="new Effect.Shake(this);">
 
+<p class="center bigtext" onmouseover="new Effect.Pulsate(this, {duration:4, pulses:2, from:0.2} );">QUIZ</p>
 
-
+<p class="center" onclick="doPuff()">Start
+</p>
+</div>
 </body>
 </html>
