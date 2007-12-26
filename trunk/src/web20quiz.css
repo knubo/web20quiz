@@ -25,3 +25,38 @@
 p {
   font-size:18pt;
 }
+
+.start { 
+    background-color: transparent;
+    background-image: url(../gfx/start.png);
+    background-repeat: no-repeat; 
+    background-position: top left;
+    text-decoration:none;
+    width: 56px; 
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+   
+.start:hover   { 
+    background-image: url(../gfx/startMouseOver.png);
+}
+
+.next { 
+    background-color: transparent;
+    background-image: url(../gfx/next.png);
+    background-repeat: no-repeat; 
+    background-position: top left;
+    text-decoration:none;
+    width: 59px; 
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+   
+.next:hover   { 
+    background-image: url(../gfx/nextMouseOver.png);
+}
+ 
