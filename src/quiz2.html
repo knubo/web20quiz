@@ -9,17 +9,23 @@
 <script src="quizscript.js" type="text/javascript"></script>
 <link rel="stylesheet" href="web20quiz.css" type="text/css" media="screen" />  
 </head>
-	
+
+
 <body>
-
-<div id="everything">
-
-<img id="web20img" src="../gfx/web20.png" alt="WEB2.0" onmouseover="new Effect.Shake(this);">
-
-<p class="center bigtext" onmouseover="new Effect.Pulsate(this, {duration:4, pulses:2, from:0.2} );">QUIZ</p>
-
-<p class="center" onclick="doPuff('quiz1.html')">Start
+<div id="everything" class="question" style="display:none">
+<p class="bigtext center">
+Om man ser $('foo') i en javascript fil, hva skjer da? 
 </p>
+
+<p class="center nextquestion" onclick="doPuff('quiz3.html')">
+Neste spørsmål
+</p>
+
+
 </div>
+
+<script event="onLoad" type="text/javascript">
+  new Effect.Appear('everything');
+</script>
 </body>
 </html>

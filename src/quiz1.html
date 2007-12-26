@@ -6,6 +6,7 @@
 <script src="../lib/global.js" type="text/javascript"></script>
 <script src="../lib/prototype.js" type="text/javascript"></script>
 <script src="../lib/scriptaculous.js" type="text/javascript"></script>
+<script src="quizscript.js" type="text/javascript"></script>
 <link rel="stylesheet" href="web20quiz.css" type="text/css" media="screen" />  
 </head>
 
@@ -16,7 +17,7 @@
 Hva er XHTML?
 </p>
 
-<p class="center">
+<p class="center nextquestion" onclick="doPuff('quiz2.html')">
 Neste spørsmål
 </p>
 
@@ -24,7 +25,6 @@ Neste spørsmål
 </div>
 
 <script event="onLoad" type="text/javascript">
- 
   new Effect.Appear('everything');
 </script>
 </body>
