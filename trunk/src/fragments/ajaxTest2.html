@@ -1,4 +1,18 @@
-<div>
-<p>Dette er et annet fragment</p>
-<img src="../gfx/web-20-bubble.jpg">
+<div onclick="zoom(this)">
+<p>Her er kildekoden:</p>
+<pre>
+&lt;div id="test" style="display:none"&gt;
+  &lt;a href="javascript:testAjaxUpdater('fragments/ajaxTest.html')"&gt;Test&lt;/a&gt; og
+
+  &lt;a href="javascript:testAjaxUpdater('fragments/ajaxTest2.html')"&gt;Test2&lt;/a&gt;
+  &lt;div id="change"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  function testAjaxUpdater(url) {
+  	 <strong>new Ajax.Updater($('change'), url);</strong>
+  }
+&lt;/script&gt;
+
+</pre>
 </div>
