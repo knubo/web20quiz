@@ -12,3 +12,7 @@ function doNext(nextpage) {
    pageToLoad = nextpage;
    new Effect.DropOut('everything', { afterFinish:loadNextPage });
 }
+
+function zoom(div) {  
+  Element.setContentZoom(div, 150); 
+}
