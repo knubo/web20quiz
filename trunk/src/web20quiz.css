@@ -2,87 +2,87 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top:10%;
+    margin-top: 10%;
 }
 
 .center {
-  text-align:center;
+    text-align: center;
 }
 
 .bigtext {
-  font-size:30pt;
-  font-weight:bold;
+    font-size: 30pt;
+    font-weight: bold;
 }
 
 #everything {
-  padding-top:50px;
-  padding-left:10%;
-  padding-right:10%;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.question {  
-  float:left;
-  clear: both;
-  width:90%;
-  background: url(../gfx/shadowAlpha.png) no-repeat bottom right !important;
-  background: url(../gfx/shadow.gif) no-repeat bottom right;
-  margin: 10px 0 0 10px !important;
-  margin: 10px 0 0 5px;
+.question {
+    float: left;
+    clear: both;
+    width: 90%;
+    background: url( ../gfx/shadowAlpha.png ) no-repeat bottom right !important;
+    background: url( ../gfx/shadow.gif ) no-repeat bottom right;
+    margin: 10px 0 0 10px !important;
+    margin: 10px 0 0 5px;
 }
 
 .question div {
-  background: none !important;
-  background: url(../gfx/shadow2.gif) no-repeat left top;
-  padding: 0 !important;
-  padding: 0 6px 6px 0;
-  }
-
-.question p {
-  color: #404040;
-  background-color: #fff; 
-  font-size:30pt;
-  font-weight:bold;
-  border: 1px solid #a9a9a9;
-  padding: 4px;
-  margin: -6px 6px 6px -6px !important;
-  margin: 0;
-  text-align:center;
-  }
-  
-p {
-  font-size:18pt;
+    background: none !important;
+    background: url( ../gfx/shadow2.gif ) no-repeat left top;
+    padding: 0 !important;
+    padding: 0 6px 6px 0;
 }
 
-.start { 
+.question p {
+    color: #404040;
+    background-color: #fff;
+    font-size: 30pt;
+    font-weight: bold;
+    border: 1px solid #a9a9a9;
+    padding: 4px;
+    margin: -6px 6px 6px -6px !important;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 18pt;
+}
+
+.start {
     background-color: transparent;
-    background-image: url(../gfx/start.png);
-    background-repeat: no-repeat; 
+    background-image: url( ../gfx/start.png );
+    background-repeat: no-repeat;
     background-position: top left;
-    text-decoration:none;
-    width: 56px; 
+    text-decoration: none;
+    width: 56px;
     height: 42px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    }
-   
-.start:hover   { 
-    background-image: url(../gfx/startMouseOver.png);
 }
 
-.next { 
+.start:hover {
+    background-image: url( ../gfx/startMouseOver.png );
+}
+
+.next {
     background-color: transparent;
-    background-image: url(../gfx/next.png);
-    background-repeat: no-repeat; 
+    background-image: url( ../gfx/next.png );
+    background-repeat: no-repeat;
     background-position: top left;
-    text-decoration:none;
-    width: 70px; 
+    text-decoration: none;
+    width: 70px;
     height: 50px;
-    margin-left:88%;
+    margin-left: 88%;
     display: block;
-    }
-   
-.next:hover   { 
-    background-image: url(../gfx/nextMouseOver.png);
+}
+
+.next:hover {
+    background-image: url( ../gfx/nextMouseOver.png );
 }
  
